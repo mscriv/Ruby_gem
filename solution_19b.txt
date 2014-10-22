@@ -1,16 +1,17 @@
       On line 1, what is being defined?
-        a. The class team, which instances of Team to be created.
+        a. The class team, which instances of Team can be created.
 
       What type of scope is the variable on line 2?
         a. its a class variable
 
       Explain the difference between the three attr_ methods on lines 4, 5, and 6.
         a. accessor allows you to write and call back the objects
+           creates a getter and setter methods and instance methods
         b. read does the same, however, you can't call the object to make changes
         c. write, is write only, w/o being able to call it or make changes
 
       On line 8, what is defined?
-       a. initialize allows a class variable to be assigned
+       a. an instance method
 
       What is the purpose of line 9?
        a. it will add the total instances of the class Team
@@ -29,20 +30,22 @@
 
       What code can call the method defined on line 27?
        a. only code that is an instance of this class
+
       In the following code, how many objects are created and what are their types?
 
-      11. 1, file is an instance of File.new
+      11. 3, file is an instance of File.new,content.txt, content
 
       file = File.new('content.txt')
       content = file.read
-      12. 1,
+      12. 2,
 
       file = File.read('content.txt')
-      13. 1, name & city are atributes
+      13. 3,
 
       user = User.new
       user.name = 'Me'
       user.city = 'St. Petersburg'
+      
       14.In the following code, what type of variable (that is, what scope) is count?
         a. count is a local variable
 
@@ -59,4 +62,4 @@
       puts count
       15.In the code from #14, what will happen on the last line and why?
         a. an error will occur. Repeat has been defined and is allowed to be called
-        however, count has not been defined other than within repeat. 
+        however, count has not been defined other than within repeat.
